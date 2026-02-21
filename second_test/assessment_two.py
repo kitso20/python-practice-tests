@@ -4,7 +4,7 @@ class AssessmentTwo:
 
     def count_negative_numbers(self, numbers):
         """Return the number of negative values in the list."""
-        pass
+        return len([i for i in numbers if i < 0])
 
     def average(self, numbers):
         """Return the average of numbers or None if list is empty."""
