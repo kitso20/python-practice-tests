@@ -12,7 +12,8 @@ class PracticeExam:
 
     def reverse_words_order(self, sentence):
         """Reverse the order of words in a sentence."""
-        pass
+        
+        return ' '.join(sentence.split()[::-1])
 
     def contains_vowel(self, text):
         """Return True if the string contains at least one vowel."""
