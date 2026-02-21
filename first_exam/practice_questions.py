@@ -21,7 +21,7 @@ class PracticeExam:
 
     def smallest_number(self, numbers):
         """Return the smallest number in the list or None if empty."""
-        pass
+        return min(numbers) if len(numbers) > 0 else None
 
 
     # ===== INTERMEDIATE QUESTIONS =====
