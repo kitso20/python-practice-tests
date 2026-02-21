@@ -8,7 +8,7 @@ class PracticeExam:
 
     def sum_list(self, numbers):
         """Return the sum of all numbers in the list."""
-        pass
+        return sum(numbers)
 
     def reverse_words_order(self, sentence):
         """Reverse the order of words in a sentence."""
