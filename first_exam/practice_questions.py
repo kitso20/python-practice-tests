@@ -4,7 +4,7 @@ class PracticeExam:
 
     def count_odd_numbers(self, numbers):
         """Return the count of odd numbers in the list."""
-        pass
+        return len([i for i in numbers if i % 2 != 0])
 
     def sum_list(self, numbers):
         """Return the sum of all numbers in the list."""
