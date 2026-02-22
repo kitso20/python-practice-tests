@@ -8,7 +8,7 @@ class AssessmentTwo:
 
     def average(self, numbers):
         """Return the average of numbers or None if list is empty."""
-        pass
+        return sum(numbers)/len(numbers) if len(numbers) > 0 else None
 
     def first_and_last(self, items):
         """Return a tuple of (first, last) item or None if list is empty."""
