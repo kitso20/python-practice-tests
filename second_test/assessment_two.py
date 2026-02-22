@@ -12,7 +12,7 @@ class AssessmentTwo:
 
     def first_and_last(self, items):
         """Return a tuple of (first, last) item or None if list is empty."""
-        pass
+        return (items[0],items[-1]) if len(items) > 0 else None
 
     def count_consonants(self, text):
         """Return the number of consonants in the string (letters only)."""
