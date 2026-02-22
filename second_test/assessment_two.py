@@ -27,7 +27,7 @@ class AssessmentTwo:
 
     def remove_duplicates_preserve_order(self, numbers):
         """Remove duplicates while preserving order."""
-        pass
+        return list(set(numbers))
 
     def word_lengths(self, sentence):
         """Return a dictionary mapping each word to its length."""
