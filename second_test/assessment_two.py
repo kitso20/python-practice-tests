@@ -20,7 +20,7 @@ class AssessmentTwo:
 
     def is_even_length(self, text):
         """Return True if the string length is even."""
-        pass
+        return True if len(text) % 2 == 0 else False
 
 
     # ===== INTERMEDIATE =====
